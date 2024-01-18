@@ -13,3 +13,18 @@ janv. 11, 2024 1:33:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancell
 AVERTISSEMENT: Unmatched cancel notification for request id 94
 2024.01.11 13:33:17 WARN  no build target for: /home4/ld754555/Documents/m2/S1/infoDecis/InfoDecisionnel/SparkETL/src/main/scala/DataLoader.scala
 2024.01.11 13:33:36 WARN  no build target for: /home4/ld754555/Documents/m2/S1/infoDecis/InfoDecisionnel/SparkETL/src/main/scala/DataLoader.scala
+2024.01.11 16:57:08 INFO  Shutting down server
+2024.01.11 16:57:08 INFO  shutting down Metals
+2024.01.11 16:57:08 INFO  Exiting server
+2024.01.12 13:31:06 INFO  Started: Metals version 1.2.0 in folders '/home8/ld754555/Documents/m2/S1/infoDecis/InfoDecisionnel/SparkETL' for client Visual Studio Code 1.67.2.
+2024.01.12 13:31:07 WARN  Build server is not auto-connectable.
+2024.01.12 13:31:07 WARN  no build target for: /home8/ld754555/Documents/m2/S1/infoDecis/InfoDecisionnel/SparkETL/src/main/scala/DataLoader.scala
+2024.01.12 13:31:10 INFO  no build target found for /home8/ld754555/Documents/m2/S1/infoDecis/InfoDecisionnel/SparkETL/src/main/scala/DataLoader.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.12 13:31:13 INFO  time: code lens generation in 4.49s
+2024.01.12 13:31:13 INFO  time: code lens generation in 5.43s
+2024.01.12 13:31:24 WARN  no build target for: /home8/ld754555/Documents/m2/S1/infoDecis/InfoDecisionnel/SparkETL/src/main/scala/DataLoader.scala
+2024.01.12 13:31:26 WARN  no build target for: /home8/ld754555/Documents/m2/S1/infoDecis/InfoDecisionnel/SparkETL/src/main/scala/DataLoader.scala
+2024.01.12 13:31:31 WARN  no build target for: /home8/ld754555/Documents/m2/S1/infoDecis/InfoDecisionnel/SparkETL/src/main/scala/Main.scala
+2024.01.12 16:49:32 INFO  Shutting down server
+2024.01.12 16:49:32 INFO  shutting down Metals
+2024.01.12 16:49:32 INFO  Exiting server
