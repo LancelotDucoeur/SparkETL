@@ -124,15 +124,19 @@ object Main {
 
 
 		//reviewDF = reviewDF.withColumn("text", regexp_replace(col("text"), "\n", ""))
+		var count = reviewDF.count()
 
+		println(s"Le DataFrame contient $count lignes.")
 		
+		reviewDF = reviewDF
+		.join(businessDF, reviewDF("business_id") === businessDF("business_id"))
+		.select(reviewDF("*")) // Sélectionnez toutes les colonnes du DataFrame review
 
-
-
-
-
-	
-
+		count = reviewDF.count()
+		println(s"Le DataFrame contient $count lignes.")
+		// Afficher le DataFrame résultant pour vérification
+		reviewDF.show()
+/*
 		var checkinDF = dataExtractor.JSONData("../dataset/yelp_academic_dataset_checkin.json")
 		
 		checkinDF.show()
@@ -372,7 +376,7 @@ object Main {
 		dl.loadToOracle(scheduleDF, "ld754555.schedule")
 		dl.loadToOracle(locationDF, "ld754555.location")
 
-
+*/
 		spark.stop()
 
 	}
