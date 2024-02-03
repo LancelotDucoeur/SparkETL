@@ -10,8 +10,9 @@ class OracleDialect extends JdbcDialect {
 		case DoubleType => Some(JdbcType("NUMBER(19, 4)", java.sql.Types.DOUBLE))
 		case ByteType => Some(JdbcType("NUMBER(3)", java.sql.Types.SMALLINT))
 		case ShortType => Some(JdbcType("NUMBER(5)", java.sql.Types.SMALLINT))
-		case StringType => Some(JdbcType("VARCHAR2(5000)", java.sql.Types.VARCHAR))
+		//case StringType => Some(JdbcType("VARCHAR2(4000)", java.sql.Types.VARCHAR))
 		case DateType => Some(JdbcType("DATE", java.sql.Types.DATE))
+		case StringType => Some(JdbcType("CLOB", java.sql.Types.CLOB))
 		case _ => None
 	}
 

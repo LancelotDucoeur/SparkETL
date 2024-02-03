@@ -122,7 +122,16 @@ object Main {
 
 		//whereDf.show()
 
+
+		//reviewDF = reviewDF.withColumn("text", regexp_replace(col("text"), "\n", ""))
+
 		
+
+
+
+
+
+	
 
 		var checkinDF = dataExtractor.JSONData("../dataset/yelp_academic_dataset_checkin.json")
 		
@@ -354,7 +363,7 @@ object Main {
 
 		dl.loadToOracle(businessDF, "ld754555.business")
 		dl.loadToOracle(reviewDF, "ld754555.review")
-		dl.loadToOracle(userDF, "ld754555.user")
+		dl.loadToOracle(userDF, "ld754555.users")
 		dl.loadToOracle(businessCategoriesDF, "ld754555.businessCategories")
 		dl.loadToOracle(categoriesDF, "ld754555.categories")
 		dl.loadToOracle(yearDF, "ld754555.year")
